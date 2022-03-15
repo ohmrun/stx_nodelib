@@ -1,0 +1,8 @@
+{
+  "build" : {
+    "-lib" : ["hxnodejs","stx_nodejs"]
+  },
+  "run" : [
+
+  ]
+}
