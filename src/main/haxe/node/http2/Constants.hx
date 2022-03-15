@@ -17,7 +17,7 @@ package node.http2;
 	static final NGHTTP2_SETTINGS_TIMEOUT : Float;
 	static final NGHTTP2_STREAM_CLOSED : Float;
 	static final NGHTTP2_FRAME_SIZE_ERROR : Float;
-	static final NGHTTP2_REFUSED_STREAM : Float;
+	static final NGHTTP2_DIGESTD_STREAM : Float;
 	static final NGHTTP2_CANCEL : Float;
 	static final NGHTTP2_COMPRESSION_ERROR : Float;
 	static final NGHTTP2_CONNECT_ERROR : Float;

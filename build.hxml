@@ -1,4 +1,0 @@
--cp src/main/haxe
--D analyzer-optimize
--main Main
---interp
