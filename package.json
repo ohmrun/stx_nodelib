@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "dts2hx": "^0.18.1"
+    "dts2hx": "git+https://github.com/haxiomic/dts2hx.git"
   },
   "dependencies": {
     "@types/accepts": "^1.3.5",

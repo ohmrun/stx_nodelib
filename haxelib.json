@@ -17,7 +17,8 @@
         "hx3compat"     : "git:https://github.com/HaxeFoundation/hx3compat.git",
         "stx_pico"      : "git:https://github.com/ohmrun/stx_pico.git",
         "stx_nano"      : "git:https://github.com/ohmrun/stx_nano.git",
-        "hxnodejs"      : "git:https://github.com/HaxeFoundation/hxnodejs.git"
+        "hxnodejs"      : "git:https://github.com/HaxeFoundation/hxnodejs.git",
+        "stx_bake"      : "git:https://github.com/ohmrun/stx_bake.git"
     },
     "classPath": "src/main/haxe"
 }

@@ -1,2 +1,3 @@
---macro addClassPath('src/main/haxe/node_fetch')
---macro addClassPath('src/main/haxe/accepts')
+--macro addClassPath('/mnt/dat/prj/haxe/stx/stx_nodejs/src/main/haxe/node-fetch')
+--macro addClassPath('/mnt/dat/prj/haxe/stx/stx_nodejs/src/main/haxe/node-fetch')
+--macro addClassPath('./src/main/haxe/accepts')
