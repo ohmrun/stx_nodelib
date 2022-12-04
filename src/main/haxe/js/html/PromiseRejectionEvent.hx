@@ -1,7 +1,7 @@
 package js.html;
 
-@:native("PromiseRejectionEvent") extern class PromiseRejectionEvent {
-	function new(type:String, eventInitDict:PromiseRejectionEventInit);
+@:native("PromiseRefuseEvent") extern class PromiseRefuseEvent {
+	function new(type:String, eventInitDict:PromiseRefuseEventInit);
 	final promise : js.lib.Promise<Dynamic>;
 	final reason : Dynamic;
 	/**
@@ -68,5 +68,5 @@ package js.html;
 	final BUBBLING_PHASE : Float;
 	final CAPTURING_PHASE : Float;
 	final NONE : Float;
-	static var prototype : PromiseRejectionEvent;
+	static var prototype : PromiseRefuseEvent;
 }

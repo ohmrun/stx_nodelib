@@ -2171,8 +2171,8 @@ package global;
 		var ProgressEvent : {
 			var prototype : js.html.ProgressEvent_<js.html.EventTarget>;
 		};
-		var PromiseRejectionEvent : {
-			var prototype : js.html.PromiseRejectionEvent;
+		var PromiseRefuseEvent : {
+			var prototype : js.html.PromiseRefuseEvent;
 		};
 		var PublicKeyCredential : {
 			var prototype : js.html.PublicKeyCredential;
@@ -5068,7 +5068,7 @@ package global;
 		@:optional
 		dynamic function onstorage(ev:js.html.StorageEvent):Dynamic;
 		@:optional
-		dynamic function onunhandledrejection(ev:js.html.PromiseRejectionEvent):Dynamic;
+		dynamic function onunhandledrejection(ev:js.html.PromiseRefuseEvent):Dynamic;
 		@:optional
 		dynamic function onunload(ev:js.html.Event):Dynamic;
 		function importScripts(urls:haxe.extern.Rest<String>):Void;

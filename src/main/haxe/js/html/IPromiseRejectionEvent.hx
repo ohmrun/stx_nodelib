@@ -1,6 +1,6 @@
 package js.html;
 
-typedef IPromiseRejectionEvent = {
+typedef IPromiseRefuseEvent = {
 	final promise : js.lib.Promise<Dynamic>;
 	final reason : Dynamic;
 	/**

@@ -523,10 +523,10 @@ package node;
 		regular `'error'` listener is installed.
 	**/
 	static final errorMonitor : js.lib.Symbol;
-	static final captureRejectionSymbol : js.lib.Symbol;
+	static final captureRefuseSymbol : js.lib.Symbol;
 	/**
-		Sets or gets the default captureRejection value for all emitters.
+		Sets or gets the default captureRefuse value for all emitters.
 	**/
-	static var captureRejections : Bool;
+	static var captureRefuses : Bool;
 	static var defaultMaxListeners : Float;
 }

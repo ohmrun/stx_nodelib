@@ -1,3 +1,3 @@
 package global.nodejs;
 
-typedef RejectionHandledListener = (promise:js.lib.Promise<Any>) -> Void;
+typedef RefuseHandledListener = (promise:js.lib.Promise<Any>) -> Void;

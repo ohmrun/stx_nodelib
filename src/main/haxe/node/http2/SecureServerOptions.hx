@@ -468,11 +468,11 @@ typedef SecureServerOptions = {
 			regular `'error'` listener is installed.
 		**/
 		final errorMonitor : js.lib.Symbol;
-		final captureRejectionSymbol : js.lib.Symbol;
+		final captureRefuseSymbol : js.lib.Symbol;
 		/**
-			Sets or gets the default captureRejection value for all emitters.
+			Sets or gets the default captureRefuse value for all emitters.
 		**/
-		var captureRejections : Bool;
+		var captureRefuses : Bool;
 		var defaultMaxListeners : Float;
 	};
 	@:optional
@@ -930,11 +930,11 @@ typedef SecureServerOptions = {
 			regular `'error'` listener is installed.
 		**/
 		final errorMonitor : js.lib.Symbol;
-		final captureRejectionSymbol : js.lib.Symbol;
+		final captureRefuseSymbol : js.lib.Symbol;
 		/**
-			Sets or gets the default captureRejection value for all emitters.
+			Sets or gets the default captureRefuse value for all emitters.
 		**/
-		var captureRejections : Bool;
+		var captureRefuses : Bool;
 		var defaultMaxListeners : Float;
 	};
 	@:optional
@@ -1400,11 +1400,11 @@ typedef SecureServerOptions = {
 			regular `'error'` listener is installed.
 		**/
 		final errorMonitor : js.lib.Symbol;
-		final captureRejectionSymbol : js.lib.Symbol;
+		final captureRefuseSymbol : js.lib.Symbol;
 		/**
-			Sets or gets the default captureRejection value for all emitters.
+			Sets or gets the default captureRefuse value for all emitters.
 		**/
-		var captureRejections : Bool;
+		var captureRefuses : Bool;
 		var defaultMaxListeners : Float;
 	};
 	@:optional
@@ -1862,11 +1862,11 @@ typedef SecureServerOptions = {
 			regular `'error'` listener is installed.
 		**/
 		final errorMonitor : js.lib.Symbol;
-		final captureRejectionSymbol : js.lib.Symbol;
+		final captureRefuseSymbol : js.lib.Symbol;
 		/**
-			Sets or gets the default captureRejection value for all emitters.
+			Sets or gets the default captureRefuse value for all emitters.
 		**/
-		var captureRejections : Bool;
+		var captureRefuses : Bool;
 		var defaultMaxListeners : Float;
 	};
 	@:optional
