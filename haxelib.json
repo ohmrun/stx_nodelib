@@ -13,11 +13,11 @@
     "version": "0.1.6",
     "url": "https://github.com/ohmrun/stx_nodelib",
     "dependencies": {
-        "tink_core"     : "git:https://github.com/haxetink/tink_core.git",
-        "stx_pico"      : "git:https://github.com/ohmrun/stx_pico.git",
-        "stx_nano"      : "git:https://github.com/ohmrun/stx_nano.git",
-        "hxnodejs"      : "git:https://github.com/HaxeFoundation/hxnodejs.git",
-        "stx_bake"      : "git:https://github.com/ohmrun/stx_bake.git"
+        "tink_core"     : "",
+        "stx_pico"      : "",
+        "stx_nano"      : "",
+        "hxnodejs"      : "",
+        "stx_bake"      : ""
     },
     "classPath": "src/main/haxe"
 }
