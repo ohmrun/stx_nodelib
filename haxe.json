@@ -1,10 +1,13 @@
 {
   "build" : {
-    "-lib" : ["stx_pico","stx_nano","stx_bake","hxnodejs","stx_nodejs"],
+    "-lib" : ["stx_pico","stx_nano","stx_bake","hxnodejs"],
     "unit" : {
       "-D" : [],
       "--macro" : ["allowPackage('sys')"],
       "-js"     : ".stx/build/unit/main.js"
+    },
+    "test" : {
+      
     }
   },
   "run" : [

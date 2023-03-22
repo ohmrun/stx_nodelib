@@ -5,3 +5,4 @@
 /.stx
 yarn.lock
 yarn-error.log
+/.env.machine
