@@ -17,7 +17,7 @@
         "stx_pico"      : "",
         "stx_nano"      : "",
         "hxnodejs"      : "",
-        "stx_bake"      : ""
+        "bake"      : ""
     },
     "classPath": "src/main/haxe"
 }

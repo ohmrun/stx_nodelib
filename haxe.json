@@ -1,6 +1,6 @@
 {
   "build" : {
-    "-lib" : ["stx_pico","stx_nano","stx_bake","hxnodejs"],
+    "-lib" : ["stx_pico","stx_nano","bake","hxnodejs"],
     "unit" : {
       "-D" : [],
       "--macro" : ["allowPackage('sys')"],
